@@ -47,12 +47,9 @@ Besides the getting parameters from requests and URLs, it gets parameter names w
 LFI throught the filename parameter                 --> filename
 SQL Injection on blabla domain via userid parameter --> userid
 <?php echo $_GET['makesense']; ?>                   --> makesense
-```   
+```
 
-## Analytics
-
-
-## To-Do
+## To Do
 - Extract json parameters from raw http response.
 - Getting download_reports.py multithreaded.
 
