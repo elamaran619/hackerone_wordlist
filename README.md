@@ -19,7 +19,7 @@
 ## Match Cases
 Here is the match cases how it extracts all these data.
 #### URLs
-I've used [urlextract](https://github.com/lipoja/URLExtract) library for extracting URLs based on TLDs. Even Though it works awesome, there might be false matches rarely. 
+I've used [urlextract](https://github.com/lipoja/URLExtract) library for extracting URLs based on TLDs. Eventhough it works awesome, there might be false matches rarely. 
 #### Raw HTTP Requests
 It extracts the raw http requests which is in three backticks (\`\`\`). Her are the example:
 ````
