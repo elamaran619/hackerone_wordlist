@@ -50,8 +50,9 @@ SQL Injection on blabla domain via userid parameter --> userid
 ```
 
 ## To Do
-- Extract json parameters from raw http response.
 - Getting download_reports.py multithreaded.
+- Extract json and parse parameters from markdown code block.
+- Extract json and parse parameters from raw http response.
 
 ## Support Me
 Reach out to me at one of the following places!
