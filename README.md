@@ -17,12 +17,37 @@
 </p>
 
 ## Match Cases
-Here is the match cases how i collected the dataset.
-#### Parameters
+Here is the match cases how i collected the data.
+#### URLs
+I've used [urlextract](https://github.com/lipoja/URLExtract) library for extracting URLs based on TLDs. Even Though it works awesome, there might be false matches rarely. 
+#### Raw HTTP Requests
+It extracts the raw http requests which is in three backticks (\`\`\`). Her are the examples:
+```
+Hey team! I've found an SQL Injection issue with your website.
 
+## Request
+\`\`\`
+POST /xyele/hackerone_wordlist HTTP/1.1
+Host: github.com
 
+star_repo=true'
+\`\`\`
+```
+
+#### Parameter names
+Besides the getting parameters from requests and URLs, it gets parameter names with regex again. Here are the examples:
+```
+LFI throught the filename parameter                 --> filename
+SQL Injection on blabla domain via userid parameter --> userid
+<?php echo $_GET['makesense']; ?>                   --> makesense
+```   
 
 ## Analytics
+
+
+## To-Do
+- Extract json parameters from raw http response.
+- Getting download_reports.py multithreaded.
 
 ## Support Me
 Reach out to me at one of the following places!
