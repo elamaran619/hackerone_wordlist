@@ -17,7 +17,7 @@
 </p>
 
 ## Match Cases
-Here is the match cases how i collected the data.
+Here is the match cases how it extracts all these data.
 #### URLs
 I've used [urlextract](https://github.com/lipoja/URLExtract) library for extracting URLs based on TLDs. Even Though it works awesome, there might be false matches rarely. 
 #### Raw HTTP Requests
@@ -26,13 +26,13 @@ It extracts the raw http requests which is in three backticks (\`\`\`). Her are 
 Hey team! I've found an SQL Injection issue with your website.
 
 ## Request
-\`\`\`
+``
 POST /xyele/hackerone_wordlist HTTP/1.1
 Host: github.com
 
 star_repo=true'
-\`\`\`
-```
+``
+````
 
 #### Parameter names
 Besides the getting parameters from requests and URLs, it gets parameter names with regex again. Here are the examples:
