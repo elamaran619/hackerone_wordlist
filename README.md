@@ -53,6 +53,9 @@ SQL Injection on blabla domain via userid parameter --> userid
 - Extract json and parse parameters from markdown code block.
 - Extract json and parse parameters from raw http response.
 
+## Known Issues
+- Nothing for yet =)
+
 ## Support Me
 Reach out to me at one of the following places!
 - https://github.com/xyele
