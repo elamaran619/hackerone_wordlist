@@ -54,7 +54,7 @@ SQL Injection on blabla domain via userid parameter --> userid
 - Extract json and parse parameters from raw http response.
 
 ## Known Issues
-- Nothing for yet =)
+- It downloads reports each by each but nothing to do for getting it faster because HackerOne has rate-limit.
 
 ## Support Me
 Reach out to me at one of the following places!
