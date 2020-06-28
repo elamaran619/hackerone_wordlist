@@ -204,7 +204,7 @@ for report in reports:
                         raw_url = b
                     url = urlparse(str(raw_url))
                     domain = tldextract(raw_url)
-                    
+
                     get_params = [clearBrackets(unquote(i)) for i in get_parameters("get",url.query)]
                     get_params = [i for i in get_params if re.match(re.compile("^[A-Za-z0-9_\-.]+$"),clearBrackets(i))]
                     get_params = ",".join(get_params)
@@ -268,9 +268,8 @@ for report in reports:
             except Exception as e:
                 unsuccessful(f"Got exception: \"{str(e)}\", Line: {sys.exc_info()[-1].tb_lineno}")
                 pass
-            
-print(type(results))
-results = set(results) # remove duplicates of results throught
+
+results = list(set(results)) # remove duplicates of results throught
 
 successful("Got {} results.".format( format(len(results),",")) )
 
