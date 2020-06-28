@@ -6,7 +6,7 @@
   HackerOne Wordlist
   <br>
 </h1>
-<h4 align="center">The wordlists that have been compiled using disclosed reports at HackerOne bug bounty platform.</h4>
+<h4 align="center">The wordlists that have been compiled using disclosed reports at the HackerOne bug bounty platform.</h4>
 <p align="center">
   <a href="https://github.com/xyele/hackerone_wordlist/stargazers">
     <img src="https://img.shields.io/github/stars/xyele/hackerone_wordlist">
