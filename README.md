@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://www.hackerone.com/"><img src="https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/dgsrzgjf4paklpbom6uj" alt="hackerone_logo"></a>
+  <a href="https://www.hackerone.com/"><img src="https://github.com/xyele/hackerone_wordlist/blob/master/images/hackeronelogo.png?raw=true" alt="hackerone_logo"></a>
   <br>
   HackerOne Wordlist
   <br>
