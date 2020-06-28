@@ -1,7 +1,1 @@
-idna
-uritools
-pytest
-appdirs
-bump2version
-filelock
-dnspython
+will be updated soon...
